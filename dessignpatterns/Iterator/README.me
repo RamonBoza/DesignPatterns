@@ -1,0 +1,21 @@
+This module describes how to use Iterator pattern.
+
+Iterator pattern helps us to loose coupling when iterating an array.
+
+The diagram of the Iterator for this demo:
+
+       -------------------                  -------------------
+       |                 |       <use>      |                 |
+       |   Iterator      |<-----------------|  BookCollection |
+       |                 |                  |                 |
+       -------------------                  -------------------
+                ^                                    |
+                |<inherits>                          | <use>
+                |                                    v
+       -------------------                  -------------------
+       |                 |     <use>        |                 |
+       |  BookIterator   | ---------------->|       Book      |
+       |                 |                  |                 |
+       -------------------                  -------------------
+
+
