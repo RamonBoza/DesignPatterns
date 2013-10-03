@@ -1,0 +1,25 @@
+This implementation will be based on the problem proposed in the book
+Head first design patterns, having a Menu and the need to implement
+a Composite.
+
+Imagine you have different Restaurants that you will bookmark and offer
+their menu in a web where you collect different restaurants from a city.
+
+In this problem we have the following Class Diagram
+
+
+                                  -----------------
+                                  |               |
+                                  | MenuComponent |  <--------------------
+                                  |               |                       |
+                                  -----------------                       |
+                                          ^                               |
+                                          |<inherits>                     | <use>
+                                          |                               |
+                        ------------------------------------              |
+                        |                                  |              |
+                -----------------                  -----------------      |
+                |               |                  |               |      |
+                |   MenuItem    |                  |      Menu     |------
+                |               |                  |               |
+                -----------------                  -----------------

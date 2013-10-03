@@ -19,5 +19,6 @@
   </dependencyManagement>
   <modules>
     <module>StrategyPattern</module>
+    <module>Composite</module>
   </modules>
 </project>
