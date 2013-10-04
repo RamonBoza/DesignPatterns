@@ -21,5 +21,6 @@
     <module>StrategyPattern</module>
     <module>Composite</module>
     <module>Iterator</module>
+    <module>Factory</module>
   </modules>
 </project>
